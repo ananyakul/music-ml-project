@@ -10,11 +10,11 @@ This project investigates how listeners differentiate AI-generated music from hu
 - **Cultural and Ethical Considerations**: Explored the influence of cultural biases on perceptions of "human" characteristics in music.
 
 ## Project Structure
-- `data`: Includes the AIME and MusicCaps datasets used for training and testing.
-- `studies`: Contains scripts for conducting human subject studies and analyzing participant responses.
-- `features`: Implements feature extraction using CLAP and Wav2Vec2, along with repetition, mixing quality, and distortion metrics.
-- `models`: Houses training scripts and architectures for binary classification and generative model identification.
-- `evaluation`: Scripts for analyzing model performance and generating metrics like accuracy, precision, recall, and F1 scores.
+- `data`: AIME and MusicCaps datasets used for training and testing
+- `studies`: human subject studies and analysis of participant responses
+- `features`: feature extraction using CLAP and Wav2Vec2, along with repetition, mixing quality, and distortion metrics.
+- `models`: binary classification and generative model identification
+- `evaluation`: analysis of model performance and generating metrics like accuracy, precision, recall, and F1 scores.
 
 ## Methodology
 1. **Dataset Preparation**: Utilized AIME (AI-generated) and MusicCaps (human-composed) datasets, with clips trimmed to 7 seconds for consistency with the CLAP model input.
