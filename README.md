@@ -23,7 +23,7 @@ This project investigates how listeners differentiate AI-generated music from hu
    - Analyzed the influence of participant demographics and prior exposure to generative music on classification accuracy.
 3. **Feature Engineering**:
    - Used CLAP embeddings for semantic representation.
-   - Extracted handcrafted metrics for repetition, mixing quality, and distortion.
+   - Extracted handcrafted metrics using Wav2Vec2 representations for repetition, mixing quality, and distortion.
 4. **Model Training**:
    - Binary classification for distinguishing AI-generated from human-composed music.
    - Multi-class classification for identifying specific generative models.
